@@ -1,0 +1,98 @@
+body {
+    margin: 0%;
+    font-family: 'Comic Neue', cursive;
+    background-color: #34495E;
+
+}
+
+.header {
+    grid-area: header;
+    background-image: url("../img/manga-00.PNG");
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+}
+
+.titulo{
+    margin: 1.2rem;
+    width: 10em;
+}
+h2{
+    margin: 0%;
+    padding-bottom: 1rem;
+}
+h3{
+    margin: 0%;
+}
+p{
+    margin: .5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    grid-area: main;
+    margin-top: 1rem;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #E5E7E9  ;
+    font-size: larger;
+    text-align: center;
+    margin-top: 0.5rem;
+     padding-top: 1rem; 
+     padding-bottom: 1rem;
+    font-weight: bold;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'sidebar main main main'
+        'footer footer footer footer'
+}
+
+.venta {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+img {
+    width: 8.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.card {
+     display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    margin-left: 5em;
+    background-color: #CACFD2;
+}
+.button{
+    padding: 1.1em 7.4em;
+    font-weight: bold;
+    background-color: #7F8C8D;
+    cursor: pointer;
+    border: none;
+}
+
+
